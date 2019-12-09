@@ -1,5 +1,5 @@
-body {
-  margin-top: 0;
+* {
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -62,4 +62,36 @@ nav {
   text-align: center;
   position: relative;
   top: 10px;
+}
+
+.article-title {
+  text-align: center;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.article-title h1 {
+  text-align: left;
+  margin: 25px 0 17px 20%;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.article-title img {
+  margin: 0 auto;
+  display: block;
+}
+
+.title-img-caption {
+  float: left;
+  width: 73%;
+  text-align: left;
+  padding-top: 10px;
+  font-size: 17px;
+  color: #666;
+}
+
+.credit {
+  font-size: 13px;
+  color: rgb(138, 136, 136);
 }
