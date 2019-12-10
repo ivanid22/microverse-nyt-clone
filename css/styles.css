@@ -131,6 +131,57 @@ nav {
   margin-bottom: 25px;
 }
 
+.social-icons .author {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  height: 45px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-icons-list {
+  padding: 0;
+  height: 50px;
+}
+
+.social-icons li {
+  display: inline;
+}
+
+.social-icons .right-aligned-icons {
+  float: right;
+  margin-top: -5px;
+}
+
+.social-icons #date {
+  font-size: 14px;
+}
+
+.social-icons .right-aligned-icons li {
+  padding-left: 10px;
+}
+
+.social-icons img {
+  vertical-align: middle;
+}
+
+.social-icons .right-aligned-icons i {
+  padding: 5px;
+}
+
+.social-icons .right-aligned-icons .social {
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+}
+
 .article-break {
   line-height: 20px;
   text-align: center;
