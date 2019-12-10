@@ -210,3 +210,49 @@ nav {
 .article-break span {
   display: block;
 }
+
+.theory-of-inflation-container {
+  position: relative;
+  width: 100%;
+  height: 576px;
+}
+
+.theory-of-inflation-container img {
+  margin-top: 13px;
+  width: 100%;
+  height: 576px;
+}
+
+.theory-item-container {
+  position: absolute;
+  width: 228px;
+  font-size: 14px;
+}
+
+.theory-row-1 {
+  top: 213px;
+}
+
+.theory-row-2 {
+  top: 503px;
+}
+
+.theory-item-1,
+.theory-item-5 {
+  left: 0;
+}
+
+.theory-item-2,
+.theory-item-6 {
+  left: 263px;
+}
+
+.theory-item-3,
+.theory-item-7 {
+  left: 530px;
+}
+
+.theory-item-4,
+.theory-item-8 {
+  left: 800px;
+}
