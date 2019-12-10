@@ -3,7 +3,14 @@
   box-sizing: border-box;
 }
 
+body {
+  color: #333;
+}
+
 header {
+  z-index: 2;
+  position: fixed;
+  background-color: white;
   border-bottom: 1px solid lightgray;
   border-top: 1px solid lightgray;
   width: 100%;
@@ -15,6 +22,11 @@ nav {
   margin: auto;
   height: 50px;
   margin-top: 0;
+}
+
+#navbar-spacing {
+  width: 100%;
+  height: 34px;
 }
 
 .nav-controls {
@@ -41,7 +53,6 @@ nav {
 }
 
 .btn-user-controls {
-  z-index: 0;
   transition: background-color 0.5s ease;
   cursor: pointer;
   padding: 9px 19px;
@@ -64,10 +75,15 @@ nav {
   top: 10px;
 }
 
+.wrapper {
+  width: 1024px;
+  margin: 50px auto 0 auto;
+}
+
 .article-title {
   text-align: center;
-  width: 1024px;
-  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 100px;
 }
 
 .article-title h1 {
@@ -94,4 +110,52 @@ nav {
 .credit {
   font-size: 13px;
   color: rgb(138, 136, 136);
+}
+
+.article-section {
+  width: 90%;
+}
+
+.sidebar {
+  float: right;
+}
+
+.article-content {
+  line-height: 28px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.article-content p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.article-break {
+  line-height: 20px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.article-break hr {
+  width: 15%;
+  margin: 15px auto;
+}
+
+.article-link {
+  color: #326891;
+}
+
+.break-caption * {
+  font-weight: 800;
+  display: block;
+}
+
+.break-caption a {
+  text-decoration: none;
+  color: rgb(50, 104, 145);
+}
+
+.article-break span {
+  display: block;
 }
