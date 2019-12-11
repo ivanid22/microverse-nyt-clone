@@ -113,7 +113,7 @@ figcaption {
   line-height: 18px;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   color: rgb(102, 102, 102);
-  margin: 10px 0px 16px;
+  margin: 10px 0 16px;
 }
 
 .article-img-caption {
