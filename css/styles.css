@@ -342,7 +342,7 @@ figcaption {
 }
 
 .category-title {
-  height: 7%;
+  height: 8%;
   width: 100%;
 }
 
@@ -384,6 +384,18 @@ figcaption {
   float: right;
   width: 23%;
   height: 100%;
+}
+
+.most-popular-articles > * {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 18px 0;
+  border-top: 1px solid #e0dfdf;
+}
+
+.most-popular {
+  padding: 1px;
 }
 
 .first-row-element {
