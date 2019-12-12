@@ -5,6 +5,9 @@
 
 body {
   color: #333;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  background-color: white;
+  line-height: 1;
 }
 
 header {
@@ -60,19 +63,27 @@ nav {
   margin: 5px;
   font-weight: bold;
   color: white;
-  background-color: #567b95;
+  background-color: rgb(86, 123, 149);
   border: 1px solid rgb(50, 104, 145);
   border-radius: 3px;
 }
 
 .btn-user-controls:hover {
-  background-color: rgb(1, 6, 10);
+  background-color: rgb(50, 104, 145);
+}
+
+.sign-up-button {
+  width: 100%;
+  margin-left: 0;
+  margin-top: 10px;
+  font-size: 12px;
 }
 
 .logo-container {
   text-align: center;
   position: relative;
   top: 10px;
+  z-index: -1;
 }
 
 .wrapper {
@@ -102,33 +113,126 @@ nav {
   float: left;
   width: 73%;
   text-align: left;
-  padding-top: 10px;
-  font-size: 17px;
-  color: #666;
+  font-size: 15px;
+}
+
+figcaption {
+  line-height: 18px;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  color: rgb(102, 102, 102);
+  margin: 10px 0 16px;
+}
+
+.article-img-caption {
+  width: 95%;
+  font-size: 14px;
 }
 
 .credit {
   font-size: 13px;
-  color: rgb(138, 136, 136);
+  color: rgb(163, 161, 161);
 }
 
 .article-section {
-  width: 90%;
+  width: 95%;
+  margin: 0 auto;
 }
 
 .sidebar {
+  width: 20%;
   float: right;
 }
 
+.science-times-ad-container {
+  position: relative;
+  top: 334px;
+}
+
+.science-times-ad-container h4 {
+  color: black;
+}
+
+.science-times-ad-container p {
+  color: #666666;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.editors-picks-sidebar {
+  top: 700px;
+}
+
+.editors-picks-sidebar h5 {
+  padding-bottom: 14px;
+  border-bottom: 1px solid lightgray;
+
+}
+
+.editors-picks-sidebar-article-container {
+  position: relative;
+  right: 8px;
+  padding: 10px 0 0 10px;
+  margin-top: 15px;
+}
+
+.editors-picks-sidebar-article-container img {
+  display: inline-block;
+  vertical-align: top;
+  width: 75px;
+  height: 75px;
+}
+
+.editors-picks-sidebar-article-container a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-size: 12px;
+  width: 100px;
+	line-height: 17px;
+}
+
+.editors-picks-sidebar-article-container a:hover {
+  text-decoration: underline;
+}
+
+.editors-picks-paid-post {
+  background-color: #F6F6F6;
+}
+
+.editors-picks-paid-post a{
+  font-size: 9px;
+  line-height: 11px;
+}
+
+.paid-post-subtitle {
+  font-weight: bold;
+}
+
 .article-content {
-  line-height: 28px;
   margin: 0 auto;
-  width: 60%;
+  width: 55%;
+}
+
+.article-content iframe {
+  width: 100%;
+  height: 319px;
+  margin: 23px auto;
+}
+
+.article-content .article-2-img {
+  width: 100%;
 }
 
 .article-content p {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 25px;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  color: rgb(80, 80, 80);
+}
+
+.social-icons {
+  padding-top: 20px;
 }
 
 .social-icons .author {
@@ -154,7 +258,6 @@ nav {
 
 .social-icons .right-aligned-icons {
   float: right;
-  margin-top: -5px;
 }
 
 .social-icons #date {
@@ -183,9 +286,10 @@ nav {
 }
 
 .article-break {
-  line-height: 20px;
+  line-height: 17px;
   text-align: center;
   margin: 15px 0;
+  font-size: 12px;
 }
 
 .article-break hr {
@@ -209,4 +313,202 @@ nav {
 
 .article-break span {
   display: block;
+}
+
+.theory-of-inflation-container {
+  position: relative;
+  width: 100%;
+  height: 671px;
+}
+
+.theory-of-inflation-container img {
+  margin-top: 13px;
+  width: 100%;
+  height: 576px;
+}
+
+.theory-item-container {
+  position: absolute;
+  width: 228px;
+  font-size: 14px;
+}
+
+.theory-row-1 {
+  top: 213px;
+}
+
+.theory-row-2 {
+  top: 503px;
+}
+
+.theory-item-1,
+.theory-item-5 {
+  left: 0;
+}
+
+.theory-item-2,
+.theory-item-6 {
+  left: 263px;
+}
+
+.theory-item-3,
+.theory-item-7 {
+  left: 530px;
+}
+
+.theory-item-4,
+.theory-item-8 {
+  left: 800px;
+}
+
+.source {
+  margin-bottom: 40px;
+}
+
+.source hr {
+  width: 6%;
+  border-color: black;
+  border-width: 0.7px;
+}
+
+.source p {
+  font-size: 13px;
+  padding: 15px 0;
+}
+
+.article-end {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  color: rgb(102, 102, 102);
+  margin-bottom: 23px;
+}
+
+.article-end a {
+  color: inherit;
+}
+
+.read-btn {
+  padding: 11px 91px;
+  font-size: 13px;
+}
+
+.up {
+  margin-top: -5px;
+}
+
+.bottom {
+  margin-top: 7px;
+}
+
+.suggested-articles-section {
+  width: 100%;
+  height: 780px;
+}
+
+.suggested-articles-section hr {
+  margin: 15px 0 15px 0;
+}
+
+.category-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.category-title {
+  height: 8%;
+  width: 100%;
+}
+
+.same-category-row-1 {
+  width: 100%;
+  height: 44%;
+}
+
+.same-category-row-2 {
+  width: 100%;
+  height: 44%;
+  margin-top: 17px;
+}
+
+.category-title a:hover {
+  text-decoration: underline;
+}
+
+.same-category-container {
+  float: left;
+  width: 75%;
+  height: 70%;
+  margin-bottom: 10px;
+}
+
+.editors-pics-container {
+  clear: left;
+  width: 75%;
+  height: 28%;
+}
+
+.editors-picks-title {
+  display: block;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.most-popular-container {
+  float: right;
+  width: 23%;
+  height: 100%;
+}
+
+.most-popular-articles > * {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 18px 0;
+  border-top: 1px solid #e0dfdf;
+}
+
+.most-popular {
+  padding: 1px;
+}
+
+.first-row-element {
+  float: left;
+}
+
+.last-row-element {
+  float: right;
+}
+
+.suggested-article {
+  display: block;
+  text-align: left;
+  width: 32%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.suggested-article img {
+  width: 100%;
+}
+
+.suggested-article figure {
+  height: 194px;
+}
+
+.suggested-article figcaption {
+  text-align: right;
+  font-size: 9px;
+  line-height: 12px;
+  margin: 0;
+}
+
+.suggested-article-title {
+  display: block;
+  text-align: left;
+}
+
+.suggested-article-date {
+  padding-top: 6px;
+  display: block;
+  font-size: 9px;
 }
