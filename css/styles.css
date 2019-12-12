@@ -72,6 +72,13 @@ nav {
   background-color: rgb(50, 104, 145);
 }
 
+.sign-up-button {
+  width: 100%;
+  margin-left: 0;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
 .logo-container {
   text-align: center;
   position: relative;
@@ -127,17 +134,47 @@ figcaption {
 }
 
 .article-section {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 }
 
 .sidebar {
+  width: 20%;
   float: right;
+}
+
+.science-times-ad-container {
+  position: relative;
+  top: 334px;
+}
+
+.science-times-ad-container h4 {
+  color: black;
+}
+
+.science-times-ad-container p {
+  color: #666;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.paid-post-subtitle {
+  font-weight: bold;
 }
 
 .article-content {
   margin: 0 auto;
-  width: 60%;
+  width: 55%;
+}
+
+.article-content iframe {
+  width: 100%;
+  height: 319px;
+  margin: 23px auto;
+}
+
+.article-content .article-2-img {
+  width: 100%;
 }
 
 .article-content iframe {
@@ -242,6 +279,67 @@ figcaption {
   display: block;
 }
 
+.editors-picks-sidebar {
+  top: 700px;
+}
+
+.editors-picks-sidebar h5 {
+  padding-bottom: 14px;
+  border-bottom: 1px solid lightgray;
+}
+
+.editors-picks-sidebar-article-container {
+  position: relative;
+  right: 8px;
+  padding: 10px 0 0 10px;
+  margin-top: 15px;
+}
+
+.editors-picks-sidebar-article-container img {
+  display: inline-block;
+  vertical-align: top;
+  width: 75px;
+  height: 75px;
+}
+
+.editors-picks-sidebar-article-container a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-size: 12px;
+  width: 100px;
+  line-height: 17px;
+}
+
+.article-end {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  color: rgb(102, 102, 102);
+  margin-bottom: 23px;
+}
+
+.editors-picks-paid-post a {
+  font-size: 9px;
+  line-height: 11px;
+}
+
+.category-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.article-end a {
+  color: inherit;
+}
+
+.editors-picks-sidebar-article-container a:hover {
+  text-decoration: underline;
+}
+
+.editors-picks-paid-post {
+  background-color: #f6f6f6;
+}
+
 .theory-of-inflation-container {
   position: relative;
   width: 100%;
@@ -303,17 +401,6 @@ figcaption {
   padding: 15px 0;
 }
 
-.article-end {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 11px;
-  color: rgb(102, 102, 102);
-  margin-bottom: 23px;
-}
-
-.article-end a {
-  color: inherit;
-}
-
 .read-btn {
   padding: 11px 91px;
   font-size: 13px;
@@ -334,11 +421,6 @@ figcaption {
 
 .suggested-articles-section hr {
   margin: 15px 0 15px 0;
-}
-
-.category-title a {
-  text-decoration: none;
-  color: inherit;
 }
 
 .category-title {
