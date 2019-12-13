@@ -1,26 +1,26 @@
-# HTML Forms Project
+# New York Times Article Page Clone
 
-> This is the second project on the HTML/CSS Section of the course. It's a clone of the signup page at mint.com
+> Microverse inspired project to clone [a new york times article page](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) using the css [float](https://www.w3schools.com/css/css_float.asp) property.
 
-![screenshot](https://github.com/ivanid22/microverse-html-forms-project/blob/feature-branch/images/screenshot.PNG)
+![screenshot](images/nyt.PNG)
 
-This project was our first contact with HTML forms, and all its different elements. It's been a great learning experience and the simplicity of the page made it easier to focus on learning the functionality of HTML forms rathen than designing a very complex page.
+This project is meant to test knowledge on floating and positioning of elements with the [float](https://www.w3schools.com/css/css_float.asp) and [position](https://www.w3schools.com/css/css_positioning.asp) properties.
 
 ## Built With
 
 - HTML,
 - CSS
 
-## Preview
+## Live Demo
 
-[Preview Link](https://codepen.io/ivanid22/pen/NWPPrVG)
+View the live demo [here](https://raw.githack.com/ivanid22/microverse-nyt-clone/features/index.html)
 
 
 ## Authors
 
-👤 **Javier Botero**
+👤 **Daizy Obura**
 
-- Github: [@javierbotero](https://github.com/javierbotero)
+- Github: [@dxania](https://github.com/dxania)
 
 👤 **Ivan Diaz**
 
