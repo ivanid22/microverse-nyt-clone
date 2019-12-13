@@ -15,8 +15,8 @@
   <header>
     <nav>
       <div class="nav-controls">
-        <img src="images/menu-24px.svg" />
-        <img src="images/search-24px.svg" />
+        <img src="images/menu-24px.svg" alt="menu icon"/>
+        <img src="images/search-24px.svg" alt="search icon"/>
         <a href="https://www.nytimes.com/section/science/space">SPACE & COSMOS</a>
       </div>
       <div class="user-controls">
@@ -71,29 +71,31 @@
       <article class="article-content">
         <div class="social-icons">
           <span class="author">By <a href="#">Dennis Overbye</a></span>
-          <span class="social-icons-bar">
+          <div class="social-icons-bar">
             <ul class="social-icons-list">
               <li id="date">March 17, 2014</li>
-              <ul class="right-aligned-icons up">
-                <li>
-                  <i class="fa fa-facebook social" aria-hidden="true"></i>
-                </li>
-                <li>
-                  <i class="fa fa-twitter social" aria-hidden="true"></i>
-                </li>
-                <li>
-                  <i class="fa fa-envelope social" aria-hidden="true"></i>
-                </li>
-                <li><i class="fa fa-share social" aria-hidden="true"></i></li>
-                <li>
-                  <img src="./images/bookmark.PNG" alt="bookmarks image" />
-                </li>
-                <li>
-                  <img src="./images/comments.PNG" alt="comments image" />
-                </li>
-              </ul>
+              <li>
+                <ul class="right-aligned-icons up">
+                  <li>
+                    <i class="fa fa-facebook social" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-twitter social" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-envelope social" aria-hidden="true"></i>
+                  </li>
+                  <li><i class="fa fa-share social" aria-hidden="true"></i></li>
+                  <li>
+                    <img src="./images/bookmark.PNG" alt="bookmarks image" />
+                  </li>
+                  <li>
+                    <img src="./images/comments.PNG" alt="comments image" />
+                  </li>
+                </ul>
+              </li>
             </ul>
-          </span>
+          </div>
         </div>
         <p>
           CAMBRIDGE, Mass. — One night late in 1979, an itinerant young
@@ -281,10 +283,6 @@
           original pot.
         </p>
       </div>
-      <!-- <div class="source">
-        <hr>
-        <p>By LARRY BUCHANAN and JONATHAN CORUM</p>
-      </div> -->
     </section>
     <div class="source">
       <hr />
@@ -518,7 +516,7 @@
 
         <div class="article-end">
           A version of this article appears in print on
-          <time>March 18, 2014</time>, Section A, Page 1 of the New York
+          March 18, 2014, Section A, Page 1 of the New York
           edition with the headline: Space Ripples Reveal Big Bang’s Smoking
           Gun
           <span>. <a href="http://www.nytreprints.com/">Order Reprints</a> |
@@ -529,27 +527,30 @@
         </div>
 
         <div class="social-icons">
-          <span class="social-icons-bar">
+          <div class="social-icons-bar">
             <ul class="social-icons-list">
               <li>
                 <button class="btn-user-controls read-btn">
                   Read 615 Comments
                 </button>
               </li>
-              <ul class="right-aligned-icons bottom">
-                <li>
-                  <i class="fa fa-facebook social" aria-hidden="true"></i>
-                </li>
-                <li>
-                  <i class="fa fa-twitter social" aria-hidden="true"></i>
-                </li>
-                <li>
-                  <i class="fa fa-envelope social" aria-hidden="true"></i>
-                </li>
-                <li><i class="fa fa-share social" aria-hidden="true"></i></li>
-              </ul>
+              <li>
+                <ul class="right-aligned-icons bottom">
+                  <li>
+                    <i class="fa fa-facebook social" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-twitter social" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-envelope social" aria-hidden="true"></i>
+                  </li>
+                  <li><i class="fa fa-share social" aria-hidden="true"></i></li>
+                </ul>
+              </li>
+              
             </ul>
-          </span>
+          </div>
         </div>
       </article>
     </div>
@@ -842,12 +843,12 @@
                 Cooking
               </a>
             </li>
-            <br>
+            <li></li>
             <li><a href="#">Email Newsletters</a></li>
             <li><a href="#">Corporate Subscriptions</a></li>
             <li><a href="#">Education Rate</a></li>
             <li></li>
-            <hr>
+            <li><hr></li>
             <li><a href="#">Mobile Applications</a></li>
             <li><a href="#">Replica Edition</a></li>
             <li><a href="#">Español</a></li>
@@ -874,7 +875,17 @@
         <li><a href="#">Subscriptions</a></li>
       </ul>
     </div>
+  <div class="fixed-footer-spacing"></div>
   </section>
+  <footer class="sticky-footer">
+    <div class="sticky-footer-content">
+      <span>Access more of The Times by creating a free account or logging in.</span>
+      <div class="expand-footer-controls">
+        <span>Expand</span>
+        <img src="images/expand_less-24px.svg" alt="Expand content">
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
