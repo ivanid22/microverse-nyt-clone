@@ -435,7 +435,7 @@ figcaption {
 }
 
 .suggested-articles-section hr {
-  margin: 15px 0 15px 0;
+  margin: 4px 0 15px 0;
 }
 
 .category-title {
@@ -524,6 +524,11 @@ figcaption {
   font-size: 9px;
   line-height: 12px;
   margin: 0;
+}
+
+.suggested-article a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .suggested-article-title {
