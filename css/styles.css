@@ -189,6 +189,10 @@ figcaption {
   padding-top: 20px;
 }
 
+.social-icons-bar {
+  display: inline;
+}
+
 .social-icons .author {
   font-size: 16px;
   font-weight: bold;
@@ -412,7 +416,7 @@ figcaption {
 }
 
 .read-btn {
-  padding: 11px 91px;
+  padding: 11px 88px;
   font-size: 13px;
 }
 
@@ -609,4 +613,53 @@ figcaption {
 
 .horizontal-links-list li a:hover {
   text-decoration: underline;
+}
+
+.fixed-footer-spacing {
+  width: 100%;
+  height: 50px;
+}
+
+.sticky-footer {
+  background-color: white;
+  border-top: 1px solid black;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+}
+
+.sticky-footer-content {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.sticky-footer-content > span {
+  display: inline-block;
+  margin-top: 16px;
+}
+
+.expand-footer-controls {
+  cursor: pointer;
+  margin-top: 7px;
+  float: right;
+}
+
+.expand-footer-controls img {
+  position: relative;
+  top: 7px;
+}
+
+@media (min-width: 1281px) {
+  .non-sticky-footer {
+    width: 1164px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .non-sticky-footer {
+    width: 94%;
+  }
 }
