@@ -260,6 +260,11 @@ figcaption {
   color: inherit;
 }
 
+.suggested-article a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .horizontal-links-list li a {
   text-decoration: none;
   color: rgb(102, 102, 102);
@@ -524,11 +529,6 @@ figcaption {
   font-size: 9px;
   line-height: 12px;
   margin: 0;
-}
-
-.suggested-article a {
-  text-decoration: none;
-  color: inherit;
 }
 
 .suggested-article-title {
